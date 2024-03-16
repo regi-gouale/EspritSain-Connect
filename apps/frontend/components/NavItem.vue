@@ -31,6 +31,7 @@ function handleClick() {
   emit('update:isActive', true)
   console.log('Status: ', props.isActive)
   navItemClasses(props.isActive)
+  navigateTo(props.href)
 }
 
 const changeClasses = computed(() => {
