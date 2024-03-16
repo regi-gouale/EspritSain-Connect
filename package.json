@@ -1,5 +1,5 @@
 {
-  "name": "EspritSain-Connect",
+  "name": "espritsain-connect",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "frontend": "pnpm --filter frontend"
   },
   "keywords": [],
   "author": "",
