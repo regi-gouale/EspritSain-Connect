@@ -11,7 +11,7 @@
       :placeholder="'Rechercher des ' + label.toLocaleLowerCase()"
     />
     <button
-      class="py-2 px-4 mx-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-indigo-500 text-white hover:bg-indigo-600 disabled:opacity-50 disabled:pointer-events-none dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-indigo-600"
+      class="py-2 px-4 mx-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-indigo-600 text-white hover:bg-indigo-600 disabled:opacity-50 disabled:pointer-events-none dark:bg-indigo-400 dark:hover:bg-indigo-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-indigo-500"
     >
       <IconsAddPerson v-show="isAddPerson" />
       <IconsAddCalendar v-show="isAddCalendar" />

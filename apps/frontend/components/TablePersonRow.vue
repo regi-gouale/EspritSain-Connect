@@ -1,5 +1,5 @@
 <template>
-  <tr>
+  <tr @click="handleClick">
     <td class="size-px whitespace-nowrap">
       <div class="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
         <div class="flex items-center gap-x-3">
@@ -79,4 +79,10 @@ const props = defineProps({
     required: true,
   },
 })
+
+function handleClick() {
+  console.log(`Clicked on ${props.personName} row!`)
+  const routePath = props.personName.split(' ').join('-').toLowerCase()
+  navigateTo(`/bien-aimes/${routePath}`)
+}
 </script>
